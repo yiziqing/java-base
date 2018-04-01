@@ -15,6 +15,8 @@ package com.nidan.design.pattern.single;
  */
 public class SingleObject04 {
 
+    private SingleObject04(){}
+
     public volatile static SingleObject04 singleObject04;
 
     public static SingleObject04 getInstance(){

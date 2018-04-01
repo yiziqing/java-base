@@ -18,6 +18,8 @@ package com.nidan.design.pattern.single;
  */
 public class SingleObject02 {
 
+    private SingleObject02(){}
+
     public static SingleObject02 singleObject;
 
     public static synchronized SingleObject02 getInstance(){
