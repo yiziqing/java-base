@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>nidan-design-pattern</module>
+        <module>nidan-io-pro</module>
     </modules>
 
     <dependencies>
